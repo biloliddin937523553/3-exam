@@ -1,0 +1,192 @@
+ul li button{
+border:1px solid white;
+color: white;
+box-sizing: border-box;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 24px;
+padding: 10px 20px;
+transition: 1s;
+}
+ul li button:hover{
+    background-color: white;
+    color: rgb(1, 78, 86);
+}
+.section1{
+    background: rgb(1, 78, 86);
+font-family: Livvic;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 60px 5%;
+}
+.section1 p{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 17px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+width: 730px;
+height: 112px;
+}
+.section1 h1{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 100px;
+letter-spacing: 0px;
+text-align: left;
+}
+.section2{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+background: rgb(0, 64, 71);
+padding: 40px 5%;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.div div{
+    background: rgb(1, 47, 52);
+    width: 350px;
+height: 305px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px 0px;
+gap: 30px;
+margin-top: 40px;
+}
+.div div .p{
+    color: rgb(121, 200, 199);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.div div p{
+    color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+font-family: cursive;
+}
+.section3{
+    background: rgb(1, 47, 52);
+    padding: 30px 5%;
+}
+.section3 h1{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+}
+.section3 div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.section4{
+    background: rgb(246, 126, 126);
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+.section4 h2{
+    color: rgb(1, 47, 52);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.section4 button{
+    box-sizing: border-box;
+border: 2px solid rgb(1, 47, 52);
+border-radius: 24px;
+width: 153px;
+height: 48px;
+}
+footer{
+    background: rgb(0, 37, 41);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5%;
+}
+@media (max-width:768px) {
+    .section1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 p{
+        text-align: center;
+    }
+    .div{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .div div{
+        width: 300px;
+    }
+    .section3 div{
+        width: 103px;
+height: 17px;
+gap: 50px;
+    }
+}
+@media (max-width:376px) {
+    .section1 p{
+        color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 15px;
+width: 350px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+    }
+    .section3 div{
+        flex-direction: column;
+    }
+    .section3 div {
+        width: 146.56px;
+height: 19.81px;
+    position: absolute;
+    left: 120px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 50px 100px;
+        gap: 30px;
+    }
+    .section4{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .section3{
+        height: 540px;
+    }
+    .section4 h2{
+        text-align: center;
+    }
+}
